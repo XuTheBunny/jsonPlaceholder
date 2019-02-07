@@ -1,1 +1,162 @@
-{"headerImage":"https://i0.wp.com/www.healthline.com/hlcmsresource/images/News/Yellow_Pills-1296x728-Header.jpg","formName":"my custom title","formItems":[{"x":0,"y":0,"w":10,"h":3,"i":"0","type":"FormHeader","variableName":"VAR1","active":false,"label":"Clinical Study Title","sublabel":"Sub-title (optional)","dataInput":null,"presetDataId":null,"required":false,"disabled":false,"isHidden":false,"tooltip":null,"cshelp":"<h4>CS help pre-fill</h4>","description":"Some description","version":1,"versionReason":null,"status":null,"tags":["Label Update","Data Model Update"]},{"x":0,"y":3,"w":10,"h":1,"i":"1","type":"Divider","variableName":"VAR2","active":false,"isResizable":false,"label":null,"sublabel":null,"dataInput":null,"presetDataId":null,"required":false,"disabled":false,"isHidden":false,"tooltip":null,"cshelp":null,"description":null,"version":0,"versionReason":null,"status":null,"tags":["Label Update","Data Model Update","Remove Component"]},{"x":0,"y":4,"w":6,"h":10,"i":"2","type":"RichTextEditor","variableName":"VAR3","active":false,"label":"Rich text label","sublabel":"Rich text sublabel","dataInput":"<p><em style=\"color: rgb(187, 187, 187);\">Add Rich Data Content Here...</em></p>","presetDataId":null,"required":false,"disabled":false,"isHidden":false,"tooltip":null,"cshelp":null,"description":null,"version":0,"versionReason":null,"status":null,"tags":["Label Update","Data Model Update","Remove Component"]},{"x":6,"y":4,"w":4,"h":10,"i":"3","type":"ImageHandler","variableName":"VAR4","active":false,"label":"Image Title here","sublabel":"Image sub-title here","dataInput":{},"presetDataId":null,"required":false,"disabled":false,"isHidden":false,"tooltip":null,"cshelp":null,"description":null,"version":0,"versionReason":null,"status":"draft","tags":["Label Update","Data Model Update","Remove Component"]},{"x":0,"y":14,"w":10,"h":1,"i":"4","type":"PageBreak","variableName":"VAR5","active":false,"isResizable":false,"label":null,"sublabel":null,"dataInput":null,"presetDataId":null,"required":false,"disabled":false,"isHidden":false,"tooltip":null,"cshelp":null,"description":null,"version":0,"versionReason":null,"status":null,"tags":["Label Update","Data Model Update","Remove Component"]}],"panel":null,"labels":[{"id":"d1","title":"Range Default Label","label":[{"key":"0","action":[],"label":"0"},{"key":"1","action":[],"label":"1"},{"key":"2","action":[],"label":"2"},{"key":"3","action":[],"label":"3"},{"key":"4","action":[],"label":"4"},{"key":"5","action":[],"label":"5"},{"key":"6","action":[],"label":"6"},{"key":"7","action":[],"label":"7"},{"key":"8","action":[],"label":"8"},{"key":"9","action":[],"label":"9"},{"key":"10","action":[],"label":"10"}]},{"id":"d2","title":"Selection Default Option","label":[{"key":"a0","action":[],"label":"Option 1"},{"key":"a1","action":[],"label":"Option 2"},{"key":"a2","action":[],"label":"Option 3"}]},{"id":"i2","title":"Gender","label":[{"key":"M","action":[],"label":"Male"},{"key":"F","action":[],"label":"Female"}]},{"id":"i3","title":"Health Screening","label":[{"key":"a0","action":[],"label":"Blood Pressure"},{"key":"a1","action":[],"label":"Cholesterol Checks"},{"key":"a2","action":[],"label":"Colorectal Cancer Tests"},{"key":"a3","action":["input"],"label":"Diabetes Tests"}]}]}
+{  
+   "formItems":[  
+      {  
+         "x":0,
+         "y":0,
+         "w":10,
+         "h":3,
+         "i":"0",
+         "type":"FormHeader",
+         "variableName":"VAR1",
+         "active":false,
+         "label":"Clinical Study Title",
+         "sublabel":"Sub-title (optional)",
+         "dataInput":null,
+         "presetDataId":null,
+         "required":false,
+         "disabled":false,
+         "isHidden":false,
+         "tooltip":null,
+         "cshelp":"<h4>CS help pre-fill</h4>",
+         "description":"Some description",
+         "version":1,
+         "versionReason":null,
+         "status":null,
+         "tags":[  
+            "Label Update",
+            "Data Model Update"
+         ]
+      }
+   ],
+   "labels":[  
+      {  
+         "id":"d1",
+         "title":"Range Default Label",
+         "label":[  
+            {  
+               "key":"0",
+               "action":[  
+
+               ],
+               "label":"0"
+            },
+            {  
+               "key":"1",
+               "action":[  
+
+               ],
+               "label":"1"
+            },
+            {  
+               "key":"2",
+               "action":[  
+
+               ],
+               "label":"2"
+            },
+            {  
+               "key":"3",
+               "action":[  
+
+               ],
+               "label":"3"
+            },
+            {  
+               "key":"4",
+               "action":[  
+
+               ],
+               "label":"4"
+            },
+            {  
+               "key":"5",
+               "action":[  
+
+               ],
+               "label":"5"
+            }
+         ]
+      },
+      {  
+         "id":"d2",
+         "title":"Selection Default Option",
+         "label":[  
+            {  
+               "key":"a0",
+               "action":[  
+
+               ],
+               "label":"Option 1"
+            },
+            {  
+               "key":"a1",
+               "action":[  
+
+               ],
+               "label":"Option 2"
+            },
+            {  
+               "key":"a2",
+               "action":[  
+
+               ],
+               "label":"Option 3"
+            }
+         ]
+      },
+      {  
+         "id":"i2",
+         "title":"Gender",
+         "label":[  
+            {  
+               "key":"M",
+               "action":[  
+
+               ],
+               "label":"Male"
+            },
+            {  
+               "key":"F",
+               "action":[  
+
+               ],
+               "label":"Female"
+            }
+         ]
+      },
+      {  
+         "id":"i3",
+         "title":"Health Screening",
+         "label":[  
+            {  
+               "key":"a0",
+               "action":[  
+
+               ],
+               "label":"Blood Pressure"
+            },
+            {  
+               "key":"a1",
+               "action":[  
+
+               ],
+               "label":"Cholesterol Checks"
+            },
+            {  
+               "key":"a2",
+               "action":[  
+
+               ],
+               "label":"Colorectal Cancer Tests"
+            },
+            {  
+               "key":"a3",
+               "action":[  
+                  "input"
+               ],
+               "label":"Diabetes Tests"
+            }
+         ]
+      }
+   ]
+}
